@@ -20,6 +20,6 @@
         </style>
     </head>
     <body class="">
-
+        @include('snippets.navbar')
     </body>
 </html>
