@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i=0; $i < 4; $i++) { 
+        for ($i=1; $i < 5; $i++) { 
             DB::table('books')->insert([
                 'title' => 'Titulo libro '.$i,
                 'author' => 'Autor '.$i,
